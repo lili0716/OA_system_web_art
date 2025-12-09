@@ -298,6 +298,8 @@
     "checkOut": "Check Out : ",
     "Replacement": "Replacement",
     "Leave":"Leave",
-    "noData": "----"
+    "noData": "----",
+    "today": "Today",
+    "previousMonth": "Previous Month"
   }
 }

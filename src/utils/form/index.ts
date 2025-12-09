@@ -10,3 +10,6 @@ export * from './validator'
 
 // 响应式布局
 export * from './responsive'
+
+// 日期相关处理函数
+export * from './date'

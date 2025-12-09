@@ -298,6 +298,8 @@
     "checkOut": "下班打卡：",
     "Replacement": "一键补卡",
     "Leave":"一键请假",
-    "noData": "----"
+    "noData": "----",
+    "today": "今天",
+    "previousMonth": "上一月"
   }
 }

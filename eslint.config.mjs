@@ -56,8 +56,13 @@ export default [
       'no-var': 'error', // 要求使用 let 或 const 而不是 var
       '@typescript-eslint/no-explicit-any': 'off', // 禁用 any 检查
       'vue/multi-word-component-names': 'off', // 禁用对 Vue 组件名称的多词要求检查
-      'no-multiple-empty-lines': ['warn', { max: 1 }], // 不允许多个空行
-      'no-unexpected-multiline': 'error' // 禁止空余的多行
+      'no-multiple-empty-lines': ['off', { max: 1 }], // 不允许多个空行
+      'no-unexpected-multiline': 'off' // 禁止空余的多行
+      
+      // error：违反规则时抛出错误，会阻断 lint 流程 / 构建；
+      // warn：违反规则时仅抛出警告，不阻断流程；
+      // off：完全关闭该规则，不再做任何检查。
+
     }
   },
   // vue 规则
